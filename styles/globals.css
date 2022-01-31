@@ -14,3 +14,26 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.card-title {
+  transition: 0.3s;
+  color: #333;
+}
+
+.card-title:hover {
+  color: #37f;
+}
+
+.meal-details {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.meal-tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
